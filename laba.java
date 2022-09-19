@@ -52,7 +52,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++)
         {
             for (int v = 0; v < arr[i].length; v++)
-                System.out.printf("%.4f ",arr[i][v], " ");
+                System.out.printf("%13.4f ",arr[i][v], " ");
             System.out.println();
         }
     }
